@@ -1,60 +1,85 @@
-<div align="center">
+ <div align="center">
 
 # Hey, I'm Debmalya 👋
 
-**Software Engineer II · Backend & Distributed Systems**
+**Software Engineer II @ Zepto | Backend & Distributed Systems**
 
-Building reliable, scalable backend systems with **Go, PostgreSQL, Kafka, and Temporal**.
+Building reliable, scalable backend systems. Exploring the engineering decisions that make distributed systems work.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debmalya-chatterjee-dc/)
 [![GitHub](https://img.shields.io/badge/GitHub-dcodes--0x-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dcodes-0x)
 
 </div>
 
-## About me
+## About Me
 
-I'm a backend engineer at **Zepto**, working on supply-chain systems and business-critical workflows. I enjoy solving problems involving **distributed systems, consistency, concurrency, performance, and reliability**.
+I'm a Backend Software Engineer at **Zepto**, working on distributed systems and business-critical supply-chain workflows.
 
-- ⚙️ Design and operate backend services powering warehouse and logistics workflows.
-- 🔁 Work with event-driven architectures, asynchronous orchestration, and resilient recovery mechanisms.
-- 📈 Focus on database performance, observability, fault tolerance, and production ownership.
-- 🧠 Explore system design, backend internals, and practical engineering trade-offs.
+My engineering interests lie in **concurrency, database internals, distributed systems, consistency, and fault tolerance**.
 
-## Tech stack
+I enjoy understanding how systems fail, why certain designs work, and the trade-offs involved in making software reliable at scale.
 
-**Languages:** Go · Java · Python · SQL  
-**Backend & messaging:** REST APIs · Kafka · Temporal · Gin  
-**Data:** PostgreSQL · Redis  
-**Infrastructure & tools:** AWS · Kubernetes · Docker · Grafana · Git
+## What I Work With
 
-## Engineering highlights
+| Area | Technologies |
+|---|---|
+| **Languages** | Go, Java, Python, SQL |
+| **Backend** | REST APIs, Microservices, Event-Driven Architecture |
+| **Messaging & Orchestration** | Kafka, Temporal |
+| **Databases & Caching** | PostgreSQL, Redis |
+| **Infrastructure** | AWS, Kubernetes, Docker |
+| **Observability** | Grafana, Distributed Tracing |
 
-- Built and maintained backend workflows across multiple microservices, supporting **400K+ asynchronous workflow executions/day**.
-- Improved a database-backed operation from approximately **20 seconds to 300 milliseconds** through query and index optimization.
-- Developed reconciliation and recovery mechanisms for failure-prone workflows, reducing manual operational intervention.
-- Worked on idempotency, concurrency control, distributed retries, observability, and incident response in production environments.
+## Engineering Experience
 
-## Projects & explorations
+- Built and operated distributed backend workflows across **5 microservices**, supporting **400K+ asynchronous workflow executions per day**.
+- Reduced API latency from approximately **20 seconds to 300 milliseconds** through PostgreSQL query optimization and targeted indexing.
+- Developed idempotent reconciliation and recovery mechanisms for critical asynchronous workflows.
+- Worked on concurrency control, fault tolerance, observability, and production incident resolution.
 
-I'm building a collection of hands-on projects around backend architecture and distributed systems:
+## Backend Engineering — In Practice
 
-| Project | Focus |
-| --- | --- |
-| **Inventory Reservation System** | Concurrency-safe reservations, expiry, idempotency, and event-driven processing |
-| **Distributed Rate Limiter** | Token bucket, Redis atomicity, multi-instance enforcement |
-| **Kafka Broker Lab** | Messaging internals, partitions, offsets, consumers, and delivery semantics |
+I'm building a collection of repositories that explore backend engineering concepts through **runnable implementations, failure simulations, architecture diagrams, and concurrency tests**.
 
-> Repositories and implementation details will be linked here as they become public.
+The idea is simple:
 
-## GitHub activity
+**Understand the concept → Reproduce the problem → Implement solutions → Verify correctness → Explore trade-offs.**
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dcodes-0x&show_icons=true&hide_border=true&theme=github_dark" alt="Debmalya's GitHub statistics" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dcodes-0x&layout=compact&hide_border=true&theme=github_dark" alt="Most used languages in public repositories" height="150" />
-</div>
+### Repositories
+
+| Repository | Concepts |
+|---|---|
+| [Idempotency in Practice](https://github.com/dcodes-0x/idempotency-in-practice) | Safe retries, duplicate requests, PostgreSQL transactions, response replay |
+| [Concurrency Control in Practice](https://github.com/dcodes-0x/concurrency-control-in-practice) | Race conditions, MVCC, transaction isolation, optimistic and pessimistic locking |
+
+### Topics I'm Exploring
+
+- **Backend Fundamentals:** Concurrency, transactions, indexing, caching, rate limiting
+- **Distributed Systems:** Consistency, retries, event-driven architectures, fault tolerance
+- **Low-Level Design:** SOLID principles, design patterns, extensible component design
+- **High-Level Design:** Scalability, partitioning, messaging, distributed coordination
+- **Production Engineering:** Observability, performance, resilience, failure recovery
+
+Each repository focuses on explaining not only *how* a solution works, but also *why* it works and where it breaks.
+
+## Engineering Principles
+
+Some ideas that influence how I approach backend engineering:
+
+- **Correctness before optimization.** A fast system is not useful if it produces incorrect results.
+- **Failures are part of the design.** Timeouts, retries, crashes, and partial failures should be expected.
+- **Database guarantees matter.** Understand transactions, isolation, and concurrency before introducing distributed coordination.
+- **Measure before optimizing.** Use metrics, traces, profiling, and query plans to identify bottlenecks.
+- **Keep abstractions purposeful.** Prefer simple, understandable designs over unnecessary complexity.
+
+## Connect
+
+I'm always interested in discussing distributed systems, backend architecture, databases, and practical engineering trade-offs.
+
+[LinkedIn](https://www.linkedin.com/in/debmalya-chatterjee-dc/) · [GitHub](https://github.com/dcodes-0x)
 
 ---
 
 <div align="center">
-  <sub>Interested in backend architecture, distributed systems, and engineering that holds up in production.</sub>
+  <sub>Building systems. Breaking assumptions. Understanding trade-offs.</sub>
 </div>
